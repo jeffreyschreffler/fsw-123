@@ -1,0 +1,33 @@
+/* *{
+    background-color: #1fb86e;
+} */
+body{
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+@keyframes bgcolor {
+    0% {
+        background-color: lavenderblush
+    }
+
+    30% {
+        background-color: lemonchiffon
+    }
+
+    60% {
+        background-color: lightseagreen
+    }
+
+    90% {
+        background-color: lightsalmon
+    }
+
+    100% {
+        background-color: lightskyblue
+    }
+}
+.App{
+    text-align: center;
+}
